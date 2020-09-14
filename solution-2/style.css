@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.parallax-img1, .parallax-img2, .parallax-img3, .parallax-img4 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.parallax-img2, .parallax-img3 {
+  height: 40%;
+}
+
+.parallax-img1 {
+  background-image: url("https://picsum.photos/800/600?random=1");
+}
+
+.parallax-img2 {
+  background-image: url("https://picsum.photos/800/600?random=2");
+}
+
+.parallax-img3 {
+  background-image: url("https://picsum.photos/800/600?random=3");
+}
+
+.parallax-img4 {
+  background-image: url("https://picsum.photos/800/600?random=4");
+}
+
+.parallax-img1__hero, .parallax-img4__hero {
+  border: 1px solid #111;
+  background-color: #111;
+  color: #fff;
+  margin-top: 3vh;
+  width: 30vw;
+  height: 7vh;
+  font-family: "Lato", sans-serif;
+  font-size: 2.1vw;
+  letter-spacing: 0.4rem;
+  text-shadow: 3px 3px 3px blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 2.5vh;
+}
+
+.parallax-img4__hero {
+  width: 45vw;
+}
+
+.parallax-img2__hero, .parallax-img3__hero {
+  color: #fff;
+  width: 30vw;
+  height: 7vh;
+  font-family: "Lato", sans-serif;
+  font-size: 2.1vw;
+  letter-spacing: 0.4rem;
+  text-shadow: 3px 3px 3px red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 2.5vh;
+}
+
+.text1, .text2, .text3 {
+  text-align: center;
+  padding: 4rem;
+  background-color: #282e34;
+  color: #ddd;
+  line-height: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.text1 {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.text1__title, .text2__title, .text3__title {
+  padding-bottom: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .parallax-img1__hero, .parallax-img2__hero, .parallax-img3__hero {
+    width: 44vw;
+    height: 10vh;
+    margin-top: 6vh;
+    font-size: 5vw;
+    line-height: 4vh;
+  }
+  .parallax-img4__hero {
+    width: 50vw;
+    height: 15vh;
+    margin-top: 6vh;
+    font-size: 5vw;
+    line-height: 4.5vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
